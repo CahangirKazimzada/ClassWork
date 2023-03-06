@@ -2,3 +2,6 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: aqua;
 }
+div{
+    margin-left: 30%;
+}
