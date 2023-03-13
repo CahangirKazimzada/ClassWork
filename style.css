@@ -1,32 +1,36 @@
+/* url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')" */
+
 body{
-    margin: 0px;
-    background-color: orangered;
-    font-family: 'Golos Text', sans-serif;
+    background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900');
+    color: white;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: gray;
+    text-align: center;
+    margin: auto;
 }
 .main{
+    margin-top: 10%;
     text-align: center;
-    padding-top: 150px;
 }
-button{
-    width: 150px;
-    height: 70px;
-    margin-top: 50px;
-    background-color: white;
-    border-radius: 30px;
+.circle_text{
+    padding: 90px 0;
+    font-size: 25px;
+}
+.circle_text{
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    border: solid white;
-    transition: 0.3s;
+    font: 100;
 }
-button:hover{
-    background-color: black;
-    color: white;
-    border: solid black;
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 400;
+    font-weight: bold;
 }
-h1, p{
-    color: white;
-}
-hr{
-    margin: 0 600px 0 600px;
-    border: 3px solid white;
-    border-radius: 5px;
+.content{
+    font-family: 'Roboto', sans-serif;
+    font-size: 300;
 }
