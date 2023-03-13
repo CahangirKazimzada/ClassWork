@@ -1,10 +1,14 @@
 /* url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')" */
 
-body{
+body {
     background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900');
     color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
-.circle{
+
+.circle {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -12,25 +16,30 @@ body{
     text-align: center;
     margin: auto;
 }
-.main{
+
+.main {
     margin-top: 10%;
     text-align: center;
 }
-.circle_text{
+
+.circle_text {
     padding: 90px 0;
     font-size: 25px;
 }
-.circle_text{
+
+.circle_text {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font: 100;
 }
-h1{
+
+h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 400;
     font-weight: bold;
 }
-.content{
+
+.content {
     font-family: 'Roboto', sans-serif;
     font-size: 300;
 }
