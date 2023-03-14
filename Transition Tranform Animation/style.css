@@ -1,0 +1,25 @@
+body{
+    margin: 15px;
+}
+.box{
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+button{
+    border-radius: 10px;
+    margin-top: 25px;
+}
+img{
+    width: 100%;
+}
+#pic{
+    transition: all;
+    transition-duration: 1s;
+}
+#pic:hover{
+    box-shadow: 3px 3px;
+}
