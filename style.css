@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     margin: 0px;
     position: relative;
     height: 100vh;
@@ -47,4 +48,47 @@ body {
         left: 0px;
         
     }
+=======
+    background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900');
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: gray;
+    text-align: center;
+    margin: auto;
+}
+
+.main {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.circle_text {
+    padding: 90px 0;
+    font-size: 25px;
+}
+
+.circle_text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font: 100;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 400;
+    font-weight: bold;
+}
+
+.content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 300;
+>>>>>>> f2af668e5325cd7fd406026a329529edcdc12a1e
 }
