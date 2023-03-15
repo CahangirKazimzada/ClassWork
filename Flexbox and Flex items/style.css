@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+.main{
+    height: 648px;
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+.data{
+    width: 650px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blue{
+    width: 210px;
+    background-color: green;
+    border-radius: 20px 0px 0px 20px;
+}
+.red{
+    width: 210px;
+    background-color: red;
+    border-radius: 0px 20px 20px 0px;
+}

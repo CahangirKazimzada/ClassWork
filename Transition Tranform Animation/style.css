@@ -6,20 +6,25 @@ body{
     height: 400px;
     border: 1px solid black;
     border-radius: 10px;
-    
+    transition: all;
+    transition-duration: 1s;
 }
-
+.box:hover img{
+    transform: scale(2);
+}
+.pic{
+    overflow: hidden;
+}
 button{
     border-radius: 10px;
     margin-top: 25px;
 }
 img{
     width: 100%;
+    position: relative;
+    transition: 1s ease;
+    border-radius: 10px 10px 0 0;
 }
-#pic{
-    transition: all;
-    transition-duration: 1s;
-}
-#pic:hover{
-    box-shadow: 3px 3px;
+.box:hover{
+    box-shadow: 1px 1px;
 }
