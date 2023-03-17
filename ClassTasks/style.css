@@ -17,7 +17,7 @@ main{
     width: 80%;
     justify-content: center;
     margin: 200px 0 200px 0;
-    padding: 0 50px 0 50px;
+    /* padding: 0 50px 0 50px; */
 }
 /*NAVBAR*/
 nav{
@@ -53,9 +53,13 @@ img{
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    border: 5px solid rgb(211, 147, 27);
+    border: 5px solid #CA7D60;
 }
 /*About section*/
+.name::after{
+    content: "TAYLOR";
+    color: #BD5D38;
+}
 .email{
     color: rgb(131, 30, 30);
     font-weight: bold;
@@ -111,4 +115,13 @@ img{
     display: inline-block;
     border-radius: 50%;
     font-size: 20px;
+}
+
+#about{
+    border-bottom: 2px solid black;
+}
+
+.about_content{
+    padding: 0 50px 0 50px;
+
 }
