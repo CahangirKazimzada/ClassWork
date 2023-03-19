@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0px;
     display: flex;
@@ -18,6 +21,9 @@ main{
     justify-content: center;
     margin: 200px 0 200px 0;
     /* padding: 0 50px 0 50px; */
+}
+main p, h1, h2, h3{
+    opacity: 0.8;
 }
 /*NAVBAR*/
 nav{
@@ -37,13 +43,15 @@ nav{
 li{
     list-style-type: none;
     padding-bottom: 20px;
-}
+}   
 a{
+    font-weight: bold;
     text-decoration: none;
     color: white;
     opacity: 0.5;
     transition: all;
     transition-duration: 1s;
+    position: sticky;
 }
 a:hover{
     color: white;
@@ -55,7 +63,15 @@ img{
     border-radius: 50%;
     border: 5px solid #CA7D60;
 }
+section{
+    padding: 0 50px 0 50px;
+    margin: 50px 150px 50px 0;
+}
 /*About section*/
+.name{
+    font-size: 80px;
+    opacity: 0.8;
+}
 .name::after{
     content: "TAYLOR";
     color: #BD5D38;
@@ -74,6 +90,7 @@ img{
 .icon{
     transition: all;
     transition-duration: 0.5s;
+    opacity: 0.7;
 }
 .icon:hover{
     background-color: #BD5D38;
@@ -116,12 +133,79 @@ img{
     border-radius: 50%;
     font-size: 20px;
 }
-
-#about{
-    border-bottom: 2px solid black;
+section#about{
+    border-bottom: 1px solid rgb(204, 196, 196);
+    padding-bottom: 100px;
 }
-
-.about_content{
-    padding: 0 50px 0 50px;
-
+/*EXPERIENCE SECTION*/
+section#experience h1{
+    font-size: 50px;
+}
+.exp-title{
+    margin-bottom: 50px;
+}
+.works{
+    margin-bottom: 100px;
+}
+section#experience{
+    border-bottom:1px solid rgb(204, 196, 196);
+    padding-bottom: 50px;
+}
+/*EDUCATION*/
+section#education h1{
+    font-size: 50px;
+}
+.education-title{
+    margin-bottom: 50px;
+}
+.school{
+    margin-bottom: 100px;
+}
+section#education{
+    border-bottom:1px solid rgb(204, 196, 196);
+}
+/*SKILLS*/
+section#skills h1{
+    font-size: 50px
+}
+.skills-title{
+    margin-bottom: 50px;
+}
+section#skills{
+    border-bottom: 1px solid rgb(204, 196, 196);
+    padding-bottom: 50px;
+}
+section#skills ul li{
+    opacity: 0.8;
+}
+/*INTERESTS*/
+section#interests h1{
+    font-size: 50px;
+}
+.interests-title{
+    margin-bottom: 50px;
+}
+section#interests{
+    border-bottom: 1px solid rgb(204, 196, 196);
+    padding-bottom: 300px;
+    padding-top: 100px;
+}
+/*AWARDS*/
+.awards-title h1{
+    font-size: 50px;
+}
+.awards-title{
+    margin-bottom: 50px;
+}
+.awards-list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.trophies i{
+    color: orange;
+    margin-bottom: 10px;
+}
+.successes p{
+    margin-bottom: 8px;
 }
