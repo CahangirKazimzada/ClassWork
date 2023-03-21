@@ -57,6 +57,8 @@ button:hover{
 }
 /*SIDEBAR*/
 .sidebar{
+    position: relative;
+    left: 200px;
     grid-area: sidebar;
     background-color: #32A4E7;
     color: white;
