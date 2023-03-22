@@ -215,6 +215,7 @@ section#interests{
         height: 5rem;
         position: sticky;
         z-index: 1;
+        margin-right: 0px;
     }
     nav ul{
         display: none;
