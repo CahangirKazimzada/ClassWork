@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Qutunun yaradilmasi*/
+.container{
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+    width: 75%;
+    height: 85%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+/*Qutunun icindeki formun yaradilmasi*/
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 10px;
+    text-align: center;
+}
+#form input{
+    background-color: blue;
+    border: 1px solid blueviolet;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+}
+::placeholder{
+    padding-left: 30px;
+    color: white;
+    opacity: 1;
+}
+#form a{
+    color: rgb(170, 79, 255);
+    text-decoration: none;
+}
+p{
+    color: blueviolet;
+}
+hr{
+    border: 1px solid blueviolet;
+}
+button{
+    cursor: pointer;
+}
+.login{
+    background-color: green;
+    color: white;
+    height: 30px;
+    border: 1px solid green;
+    border-radius: 3px;
+}
+.create_new_account{
+    background-color: yellow;
+    color: black;
+    height: 30px;
+    border: 1px solid yellow;
+    border-radius: 3px;
+    margin-top: 50px;
+}
+/*Iconlarin elave olunmasi*/
+.icons{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 400px;
+}
+.icon{
+    border: 1px solid blueviolet;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    font-size: 50px;
+}
+
+.icon-twitter{
+    position: relative;
+    right: 20px;
+    z-index: 1;
+}
