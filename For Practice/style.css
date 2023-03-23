@@ -112,6 +112,7 @@ button{
     }
     .login-box{
         width: 85%;
+        height: 75%;
     }
     #form{
         width: 300px;
