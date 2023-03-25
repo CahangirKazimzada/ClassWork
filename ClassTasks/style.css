@@ -60,6 +60,9 @@ img{
     border-radius: 50%;
     border: 5px solid #CA7D60;
 }
+nav h1,.bar-icon{
+    display: none;
+}
 section{
     padding: 0 50px 0 50px;
     margin: 50px 150px 50px 0;
@@ -216,9 +219,26 @@ section#interests{
         position: sticky;
         z-index: 1;
         margin-right: 0px;
+        position: relative;
     }
     nav ul{
         display: none;
+    }
+    nav h1,.bar-icon{
+        display: flex;
+    }
+    nav h1{
+        font-size: 20px;
+        margin-left: 0px;
+        position: absolute;
+        left: 15px;
+        opacity: 1;
+    }
+    nav .bar-icon{
+        position: absolute;
+        right: 15px;
+        border: 1px solid white;
+        padding: 5px;
     }
     main{
         display: flex;
