@@ -1,0 +1,28 @@
+#about{
+    background-color: rgb(255, 115, 0);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .about-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        button{
+            background-color: blueviolet;
+            color: white;
+            border-radius: 20px;
+            width: 100px;
+            padding: 10px;
+            border: none;
+            margin-left: 100px;
+        }
+    }
+}
