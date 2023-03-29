@@ -1,46 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-#about{
-    background-color: rgb(255, 115, 0);
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    h1{
-        font-size: 50px;
-    }
-    h2{
-        font-size: 30px;
-    }
-    .about-title{
+#production{
+    .img{
+        font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: white;
+        width: 100%;
+        height: 600px;
+        // background-color: gray;
+        background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        button{
-            background-color: blueviolet;
-            color: white;
-            border-radius: 20px;
-            width: 100px;
-            padding: 10px;
-            border: none;
-            margin-left: 100px;
+        align-items: center;
+        .img-box{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            justify-content: center;
+            align-items: center;
+            // margin: 0 400px;    background-color: orangered;
+            text-align: center;
+            .product-title{
+                h1{
+                    font-size: 50px;
+                    
+                }
+            }
+            p{
+                color: burlywood;
+            }
+
+            .btn{
+                button{
+                    color: white;
+                    background-color: orangered;
+                    border: none;
+                    border-radius: 50px;
+                    padding: 20px;
+                    cursor: pointer;
+                }
+            }
         }
     }
 }
-#content{
-    .person1{
+#need{
+    .need-text{
+        height: 400px;
+        background-color: orangered;
         display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        .img{
-            border-radius: 50%;
+        color: white;
+        // padding: 0 400px;
+        margin: 0 auto;
+        text-align: center;
+        gap: 20px;
+        .need-title{
+            h1{
+                font-size: 50px;
+            }
         }
-        .text{
-            padding-right: 50px;
+        hr{
+            width: 25%;
+        }
+        .btn{
+            button{
+                background-color: white;
+                border: none;
+                border-radius: 30px;
+                padding: 20px;
+            }
         }
     }
 }

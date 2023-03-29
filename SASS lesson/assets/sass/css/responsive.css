@@ -1,32 +1,31 @@
 @media (max-width: 414px) {
-  .links {
-    display: none;
-  }
-  header {
+  /*NAVBAR*/
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
   }
-  header h1 {
-    margin-left: 20px;
+  nav .web-title {
+    margin-left: 10px;
   }
-  header .menu_icon {
+  nav .list {
+    display: none;
+  }
+  nav .menu-bar {
     display: block;
-    border: 1px solid white;
-    padding: 5px;
     margin-right: 20px;
+    border: 1px solid gray;
+    padding: 10px 15px;
+    border-radius: 5px;
   }
-  #about {
-    text-align: center;
+  /*PRODUCTION*/
+  #production .img .img-box {
+    margin: 0 50px;
   }
-  #about button {
-    margin-left: 20px;
+  #production .img .img-box br {
+    display: none;
   }
-  #content .person1 {
-    display: flex;
-    flex-direction: column;
+  #production .img .img-box .product-title h1 {
+    font-size: 40px;
   }
-}
+}/*# sourceMappingURL=responsive.css.map */
