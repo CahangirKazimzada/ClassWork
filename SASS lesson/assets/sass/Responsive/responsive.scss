@@ -45,4 +45,14 @@
       }
     }
   }
+  /*PICS*/
+  #pics{
+    .pic{
+      display: flex;
+      flex-direction: column;
+      img{
+        width: 10%;
+      }
+    }
+  }
 }

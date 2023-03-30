@@ -37,4 +37,12 @@
     display: flex;
     flex-direction: column;
   }
-}/*# sourceMappingURL=responsive.css.map */
+  /*PICS*/
+  #pics .pic {
+    display: flex;
+    flex-direction: column;
+  }
+  #pics .pic img {
+    width: 10%;
+  }
+}
