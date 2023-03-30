@@ -34,4 +34,15 @@
         }
     }
   }
+  /*SERVICE*/
+  #service{
+    .service-box{
+      display: flex;
+      margin: 200px 0;
+      .service-icons{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
 }

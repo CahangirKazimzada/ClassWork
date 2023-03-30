@@ -28,4 +28,13 @@
   #production .img .img-box .product-title h1 {
     font-size: 40px;
   }
-}/*# sourceMappingURL=responsive.css.map */
+  /*SERVICE*/
+  #service .service-box {
+    display: flex;
+    margin: 200px 0;
+  }
+  #service .service-box .service-icons {
+    display: flex;
+    flex-direction: column;
+  }
+}

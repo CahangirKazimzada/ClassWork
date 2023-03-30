@@ -11,6 +11,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -75,9 +76,15 @@ nav .menu-bar {
   cursor: pointer;
 }
 
+#need {
+  background-color: orangered;
+}
+#need .need-box {
+  margin: 0 auto;
+  max-width: 600px;
+}
 #need .need-text {
   height: 400px;
-  background-color: orangered;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,6 +105,112 @@ nav .menu-bar {
   border: none;
   border-radius: 30px;
   padding: 20px;
+  font-size: 15px;
+}
+
+/*Service*/
+#service {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 900px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#service .service-box {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  text-align: center;
+}
+#service .service-box .service-title h1 {
+  font-size: 40px;
+}
+#service .service-box .service-icons {
+  display: flex;
+  gap: 100px;
+}
+#service .service-box .service-icons .server-icon i {
+  color: orangered;
+  font-size: 30px;
+}
+#service .service-box .service-icons .server-icon p {
+  color: rgb(97, 93, 93);
+}
+
+/*DOWNLOAD*/
+#download {
+  height: 400px;
+  background-color: #212529;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#download .download-box {
+  text-align: center;
+}
+#download .download-box button {
+  font-weight: bold;
+  border: none;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: white;
+  transition: 1s background-color;
+}
+#download .download-box button:hover {
+  background-color: gray;
+}
+
+/*REGISTRATION*/
+#registration {
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+#registration .container .registr-box {
+  text-align: center;
+}
+#registration .container .registr-box .registr-title {
+  text-align: center;
+}
+#registration .container .registr-box form {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#registration .container .registr-box form input::-moz-placeholder {
+  color: black;
+}
+#registration .container .registr-box form input:-ms-input-placeholder {
+  color: black;
+}
+#registration .container .registr-box form input::placeholder {
+  color: black;
+}
+#registration .container .registr-box form button {
+  border-radius: 20px;
+  background-color: orangered !important;
+  color: white;
+  opacity: 0.5;
+  padding: 10px;
+}
+#registration .container .registr-box .phone-number {
+  margin-top: 50px;
+}
+
+footer {
+  height: 100px;
+  background-color: #F8F9FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div {
+  color: gray;
 }
 
 @media (max-width: 414px) {
@@ -130,4 +243,13 @@ nav .menu-bar {
   #production .img .img-box .product-title h1 {
     font-size: 40px;
   }
-}/*# sourceMappingURL=main.css.map */
+  /*SERVICE*/
+  #service .service-box {
+    display: flex;
+    margin: 200px 0;
+  }
+  #service .service-box .service-icons {
+    display: flex;
+    flex-direction: column;
+  }
+}
