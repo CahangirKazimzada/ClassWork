@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 50px;
+  background-color: darkcyan;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-content {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav .nav-content .number {
+  display: flex;
+  gap: 10px;
+}
+nav .nav-content .nav-list .list {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+nav .nav-content .nav-list .list li {
+  cursor: pointer;
+  opacity: 0.8;
+  padding-right: 10px;
+  border-right: 1px solid white;
+}
+nav .nav-content .nav-list .list li:last-child {
+  border: none;
+}
+
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #e4e8ec;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header .header-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header .header-box .header-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+}
+header .header-box .header-title img {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+header .header-box .header-title .input {
+  position: relative;
+}
+header .header-box .header-title .input input {
+  width: 400px;
+  padding: 15px 20px;
+  border: none;
+  background-color: rgb(249, 253, 253);
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+header .header-box .header-title .input input:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(56, 169, 240, 0.75);
+}
+header .header-box .header-title .input input::placeholder {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: gray;
+}
+header .header-box .header-title .header-list {
+  display: flex;
+  gap: 20px;
+}
+header .header-box .header-title .header-list div a {
+  display: flex;
+  gap: 8px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+header .header-box .subtitle ul {
+  display: flex;
+  gap: 20px;
+}
+header .header-box .subtitle ul li {
+  list-style-type: none;
+}
+header .header-box .subtitle ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+hr {
+  color: gray;
+}
+
+main #discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: burlywood;
+}
+main #discount .discount-box {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+main #discount .discount-box .left-part {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main #discount .discount-box .left-part .faiz h2 {
+  color: red;
+}
+main #discount .discount-box .left-part .left-part-paragraf p {
+  color: rgb(43, 38, 38);
+}
+main #discount .discount-box .left-part .button button {
+  background-color: darkgreen;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+main #discount .discount-box .left-right {
+  width: 300px;
+  height: 300px;
+}
+main #discount .discount-box .right-part {
+  width: 600px;
+  height: 600px;
+}
+main #discount .discount-box .right-part img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=main.css.map */

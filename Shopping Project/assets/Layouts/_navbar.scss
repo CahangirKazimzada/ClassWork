@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 50px;
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .nav-content{
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        .number{
+            display: flex;
+            gap: 10px;
+        }
+        .nav-list{
+            .list{
+                display: flex;
+                gap: 10px;
+                list-style-type: none;
+                li{
+                    cursor: pointer;
+                    opacity: 0.8;
+                    padding-right: 10px;
+                    border-right: 1px solid white;
+                }
+                li:last-child{
+                    border: none;
+                }
+            }
+        }
+    }
+}

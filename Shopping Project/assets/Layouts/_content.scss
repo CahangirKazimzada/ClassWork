@@ -1,0 +1,53 @@
+main{
+    #discount{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        background-color: burlywood;
+        .discount-box{
+            width: 1200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            .left-part{
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                .faiz{
+                    h2{
+                        color: red;
+                    }
+                }
+                .left-part-paragraf{
+                    p{
+                        color: rgb(43, 38, 38);
+                    }
+                }
+                .button{
+                    button{
+                        background-color: darkgreen;
+                        border: none;
+                        color: white;
+                        padding: 15px 25px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+            .left-right{
+                width: 300px;
+                height: 300px;
+            }
+            .right-part{
+                width: 600px;
+                height: 600px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
