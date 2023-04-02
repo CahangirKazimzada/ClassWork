@@ -11,6 +11,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -191,6 +192,12 @@ nav .menu-bar {
   flex-direction: column;
   gap: 10px;
 }
+#registration .container .registr-box form input::-moz-placeholder {
+  color: black;
+}
+#registration .container .registr-box form input:-ms-input-placeholder {
+  color: black;
+}
 #registration .container .registr-box form input::placeholder {
   color: black;
 }
@@ -263,4 +270,4 @@ footer div {
   #pics .pic img {
     width: 10%;
   }
-}/*# sourceMappingURL=main.css.map */
+}

@@ -1,3 +1,6 @@
+*{
+    font-family: Poppins;
+}
 main{
     #discount{
         display: flex;
@@ -21,6 +24,13 @@ main{
                         color: red;
                     }
                 }
+                .left-part-title{
+                    h1{
+                        font: normal;
+                        font-weight: bold;
+                        font-size: 40px;
+                    }
+                }
                 .left-part-paragraf{
                     p{
                         color: rgb(43, 38, 38);
@@ -28,10 +38,11 @@ main{
                 }
                 .button{
                     button{
-                        background-color: darkgreen;
+                        background-color: #206363;
                         border: none;
                         color: white;
-                        padding: 15px 25px;
+                        margin-top: 50px;
+                        padding: 15px 50px;
                         border-radius: 10px;
                     }
                 }
@@ -48,6 +59,98 @@ main{
                     height: 100%;
                 }
             }
+        }
+    }
+    #suggestions{
+        height: 144px;
+        background-color: #F7F7F7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .suggest-box{
+            display: flex;
+            gap: 100px;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+    #types{
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background-color: aqua;
+        .type-box{
+            display: flex;
+            gap: 20px;
+            #bags{
+                width: 264px;
+                height: 162px;
+                background: #F5F5F5;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                p{
+                    display: flex;
+                    justify-content: flex-start;
+                }
+                .type-img{
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+            // .shoulder-bags{
+            //     position: relative;
+            //     p{
+            //         font-weight: bold;
+            //         padding-left: 10px;
+            //         padding-top: 10px;
+            //     }
+            //     img{
+            //         position: absolute;
+            //         bottom: 0.8px;
+            //         left: 120px;
+            //     }
+            // }
+            // .hand-bag{
+            //     p{
+            //         font-weight: bold;
+            //         padding-left: 10px;
+            //         padding-top: 10px;
+            //     }
+            //     img{
+            //         position: absolute;
+            //         left: 513px;
+            //         bottom: -462px;
+            //     }
+            // }
+            // .backpack{
+            //     p{
+            //         font-weight: bold;
+            //         padding-left: 10px;
+            //         padding-top: 10px;
+            //     }
+            //     img{
+            //         position: absolute;
+            //         right: 399px;
+            //         top: 974px;
+            //     }
+            // }
+            // .evening-bag{
+            //     p{
+            //         font-weight: bold;
+            //         padding-left: 10px;
+            //         padding-top: 10px;
+            //     }
+            //     img{
+            //         position: absolute;
+            //         top: 1028px;
+            //         left: 1080px;
+            //     }
+            // }
         }
     }
 }

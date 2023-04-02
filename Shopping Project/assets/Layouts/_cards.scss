@@ -1,0 +1,203 @@
+#products{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    .product-title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 50px;
+    }
+    .product-cards{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        #bag{
+            height: 508px;
+            width: 360px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            .card-text{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 0 20px;
+                .stars{
+                    i{
+                        color: rgb(255, 208, 0);
+                        margin-left: 8px;
+                    }
+                }
+                button{
+                    border: 1px solid black;
+                    background-color: white;
+                    border-radius: 15px;
+                    width: 100%;
+                    height: 50px;
+                }
+                h2{
+                    color: red;
+                }
+            }
+        }
+    }
+}
+#bestseller{
+    height: 1000px;
+    background: rgb(240, 215, 182);
+    display: flex;
+    justify-content: center;
+    .bestseller-box{
+        width: 1249px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        .bestseller-box-title{
+            display: flex;
+            justify-content: space-between;
+        }
+        .bestseller-cards{
+            display: flex;
+            justify-content: space-between;
+            #card{
+                height: 508px;
+                width: 360px;
+                background-color: gainsboro;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                .card-info{
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+                    div{
+                        background-color: lime;
+                        padding: 2px 20px;
+                        border-radius: 5px;
+                    }
+                }
+                .card-main{
+                    height: 88%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0 20px;
+                    .card-text{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        .stars{
+                            i{
+                                color: rgb(255, 208, 0);
+                                margin-left: 8px;
+                            }
+                        }
+                        .price{
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            h2{
+                                color: red;
+                            }
+                            p{
+                                color: gray;
+                            }
+                        }
+                        button{
+                            border: 1px solid black;
+                            background-color: white;
+                            border-radius: 15px;
+                            width: 100%;
+                            height: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#sidebar{
+    height: 546px;
+    background-color: rgb(216, 209, 209);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    .sidebar-title{
+        width: 1249px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+        padding-bottom: 30px;
+        h1{
+            font-weight: bold;
+        }
+        input{
+            width: 360px;
+            border-radius: 10px;
+            border: none;
+            padding: 10px;
+        }
+    }
+    .sidebar-content{
+        width: 1249px;
+        display: flex;
+        justify-content: space-between;
+        .left-part{
+            width: 457px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+            .email-number{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .btn{
+                button{
+                    width: 179px;
+                    height: 48px;
+                    border-radius: 8px;
+                    background-color: white;
+                    border: 1px solid gray;
+                    i{
+                        padding: 8px;
+                    }
+                }
+            }
+        }
+        .right-part{
+            display: flex;
+            gap: 50px;
+            #list{
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                p{
+                    font-weight: bold;
+                }
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    li{
+                        list-style-type: none;
+                        a{
+                            text-decoration: none;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
