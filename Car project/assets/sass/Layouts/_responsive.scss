@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: none;
+    .icon-box {
+      .icons {
+        display: none;
+      }
+    }
+    .search-box{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+}

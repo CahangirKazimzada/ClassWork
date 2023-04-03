@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+nav .search-box {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+nav .search-box h1 {
+  color: blue;
+}
+nav .search-box .input {
+  position: relative;
+}
+nav .search-box .input input {
+  height: 44px;
+  width: 492px;
+  border-radius: 10px;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+}
+nav .search-box .input input::placeholder {
+  padding-left: 80px;
+}
+nav .search-box .input .glass {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+nav .search-box .input .filter {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+nav .icon-box {
+  display: flex;
+  gap: 20px;
+}
+nav .icon-box img {
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 0 10px;
+}
+nav .icon-box img:last-child {
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: none;
+  }
+  nav .icon-box .icons {
+    display: none;
+  }
+  nav .search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}/*# sourceMappingURL=main.css.map */
