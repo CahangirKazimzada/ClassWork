@@ -28,6 +28,9 @@ nav .container .navbar-container .navbar-container-title {
   justify-content: space-between;
   align-items: center;
 }
+nav .container .navbar-container .navbar-container-title h1 {
+  cursor: pointer;
+}
 nav .container .navbar-container .navbar-container-title i {
   border: 2px solid gray;
   padding: 5px 15px;
@@ -37,6 +40,13 @@ nav .container .navbar-container .navbar-container-title i {
 nav .container .navbar-container .navbar-container-list ul {
   display: flex;
   gap: 50px;
+}
+nav .container .navbar-container .navbar-container-list ul li {
+  cursor: pointer;
+  opacity: 0.6;
+}
+nav .container .navbar-container .navbar-container-list ul li:first-child {
+  opacity: 1;
 }
 nav .container .resp {
   width: 90%;
@@ -48,6 +58,13 @@ nav .container .resp ul {
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+nav .container .resp ul li {
+  cursor: pointer;
+  opacity: 0.6;
+}
+nav .container .resp ul li:first-child {
+  opacity: 1;
 }
 nav .container .closed {
   width: 90%;
