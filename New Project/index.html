@@ -1,54 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/New Project/css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Condensed&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>Document</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Bootstrap</title>
+</head>
+<body>
+  <nav>
     <div class="container">
-      <div class="left-section">
-        <h1>Hello, Friend!</h1>
-        <p>
-          Enter your personal details and <br />
-          start journey with us
-        </p>
-        <button>SIGN UP</button>
-      </div>
-      <div class="right-section">
-        <div class="form">
-          <div class="form-title">
-            <h1>Create Account</h1>
-            <div class="icons">
-                <div class="icon facebook"><i class="fa-brands fa-facebook"></i></div>
-                <div class="icon instagram"><i class="fa-brands fa-instagram"></i></div>
-                <div class="icon linkedin"><i class="fa-brands fa-linkedin"></i></div>
-            </div>
-            <p>or use your email for registration</p>
-          </div>
-          <form action="">
-            <input type="text" placeholder="NAME" />
-            <input type="password" placeholder="PASSWORD" />
-            <input type="email" placeholder="EMAIL" />
-            <button>SIGN UP</button>
-          </form>
+      <div class="navbar-container">
+        <div class="navbar-container-title">
+          <h1>Start Bootstrap</h1>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="navbar-container-list">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
         </div>
       </div>
+      <div class="resp">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
     </div>
-  </body>
+  </nav>
+  <section id="landing-page">
+    <div class="container">
+      <div class="container-box">
+        <img src="./assets/sass/Images/circle.jpg" alt="">
+        <h1>Full Width Pics</h1>
+        <p>Landing Page Template</p>
+      </div>
+    </div>
+  </section>
+  <section id="background-info">
+    <div class="container">
+      <div class="container-box">
+        <h1>Full Width Backgrounds</h1>
+        <h3>A single, lightweight helper class allows you to add engaging, full width background images to sections of your page.</h3>
+        <p>The universe is almost 14 billion years old, and, wow! Life had no problem starting here on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the universe.</p>
+
+      </div>
+    </div>
+  </section>
+  <section id="moon"></section>
+  <section id="background-info">
+    <div class="container">
+      <div class="container-box">
+        <h1>Engaging Background Images</h1>
+        <h3>The background images used in this template are sourced from Unsplash and are open source and free to use.</h3>
+        <p>I can't tell you how many people say they were turned off from science because of a science teacher that completely sucked out all the inspiration and enthusiasm they had for the course.</p>
+
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Copyright © Your Website 2023</p>
+  </footer>
+
+
+  <script src="app.js"></script>
+</body>
 </html>
